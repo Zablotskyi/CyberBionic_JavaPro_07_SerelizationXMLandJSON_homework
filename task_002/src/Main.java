@@ -6,7 +6,7 @@ public class Main {
     private static final String FILE_NAME = "animal.dat";
 
     public static void main(String[] args) {
-        Animal animal = new Animal("Бертаб", 5, true);
+        Animal animal = new Animal("Берта", 5, true);
 
         serializeAnimal(animal, FILE_NAME);
         Animal loaded = deserializeAnimal(FILE_NAME);
