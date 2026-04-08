@@ -2,6 +2,8 @@ import javax.xml.bind.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+//Завдання 4
+//Використовуючи JAXB, виконати завдання №3.
 public class Main {
     public static void main(String[] args) throws Exception {
         Path xml = Paths.get("addresses.xml");
